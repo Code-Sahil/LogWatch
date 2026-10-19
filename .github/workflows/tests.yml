@@ -1,5 +1,5 @@
 
-name: LogWatch Tests
+name: LogWatch CI
 
 on:
   push:
@@ -21,3 +21,13 @@ jobs:
 
       - name: Run automated tests
         run: python -m unittest -v
+
+  docker:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Build Docker image
+        run: docker build -t logwatch:ci .
