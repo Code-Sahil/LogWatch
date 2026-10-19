@@ -1,0 +1,9 @@
+
+[2026-10-19 10:00:00] INFO Application started
+[2026-10-19 10:00:01] INFO Database connection established
+[2026-10-19 10:00:02] WARNING Response time elevated
+[2026-10-19 10:00:03] ERROR Failed to process payment
+[2026-10-19 10:00:04] INFO Request completed
+[2026-10-19 10:00:05] ERROR Database query failed
+[2026-10-19 10:00:06] CRITICAL Database connection lost
+[2026-10-19 10:00:07] INFO Application shutting down
